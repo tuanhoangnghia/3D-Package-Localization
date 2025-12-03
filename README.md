@@ -33,14 +33,12 @@ The project expects the following directory structure:
 ├── submit/
 │   ├── rgb/    # Contains RGB images (e.g., 0000.png)
 │   └── depth/  # Contains Depth images (e.g., 0000.png)
-├── data/
-│   └── labels.csv # CSV file containing target coordinates
 └── test1.py    # Main processing script
 ```
 
 ## Usage
 
-1.  Ensure your data is placed in the `submit/` and `data/` directories as described above.
+1.  Ensure your data is placed in the `submit/` directories as described above.
 2.  Run the main script:
 
     ```bash
