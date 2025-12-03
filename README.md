@@ -1,5 +1,7 @@
 # Point Cloud Processing Pipeline
 
+![Demo](assets/demo.png)
+
 This project implements a pipeline for processing 3D point cloud data (PCD) to detect planes and segment objects. It uses Open3D for 3D processing and a 2D segmentation model (via Roboflow) to assist in region of interest selection.
 
 ## Features
@@ -12,17 +14,12 @@ This project implements a pipeline for processing 3D point cloud data (PCD) to d
 
 ## Dependencies
 
-This project requires Python and the following libraries:
-
-- `open3d`
-- `numpy`
-- `keyboard`
-- `matplotlib`
+This project requires Python and the libraries listed in `requirements.txt`.
 
 You can install them using pip:
 
 ```bash
-pip install open3d numpy keyboard matplotlib
+pip install -r requirements.txt
 ```
 
 **Note**: The project also imports a module named `inference`. Ensure this module is available in your python path or project directory.
