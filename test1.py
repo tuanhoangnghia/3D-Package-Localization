@@ -3,7 +3,6 @@ import numpy as np
 import os
 from typing import List, Dict, Any, Optional
 
-# --- CÁC IMPORT MỚI ---
 from inference import get_model 
 # (MỚI) Thêm thư viện để kiểm tra điểm trong đa giác (point-in-polygon)
 from matplotlib.path import Path 
@@ -19,7 +18,6 @@ except ImportError:
 
 # =V===========================================================================
 # --- 1. LỚP CẤU HÌNH (CONFIG) ---
-# (Không thay đổi so với phiên bản trước)
 # =============================================================================
 
 class PipelineConfig:
